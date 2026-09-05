@@ -50,7 +50,7 @@ Ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Kosha-Nirman/slate.git
+   git clone https://github.com/rivetron/slate.git
    cd slate
    ```
 

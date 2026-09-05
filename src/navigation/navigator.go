@@ -3,7 +3,7 @@ package navigation
 import (
 	"fmt"
 
-	"github.com/Kosha-Nirman/slate/src/models"
+	"github.com/rivetron/slate/src/models"
 )
 
 type Navigator struct {

@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Kosha-Nirman/slate/src/models"
+	"github.com/rivetron/slate/src/models"
 	"gopkg.in/yaml.v3"
 )
 

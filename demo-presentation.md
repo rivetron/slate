@@ -153,7 +153,7 @@ All from the incredible [Charm](https://charm.sh) team! 💜
 
 ### Install
 ```bash
-go install github.com/Kosha-Nirman/slate@latest
+go install github.com/rivetron/slate@latest
 ```
 
 ### Create

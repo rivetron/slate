@@ -5,12 +5,12 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/Kosha-Nirman/slate/src/config"
-	"github.com/Kosha-Nirman/slate/src/data"
-	"github.com/Kosha-Nirman/slate/src/display"
-	"github.com/Kosha-Nirman/slate/src/models"
-	"github.com/Kosha-Nirman/slate/src/navigation"
-	"github.com/Kosha-Nirman/slate/src/theme"
+	"github.com/rivetron/slate/src/config"
+	"github.com/rivetron/slate/src/data"
+	"github.com/rivetron/slate/src/display"
+	"github.com/rivetron/slate/src/models"
+	"github.com/rivetron/slate/src/navigation"
+	"github.com/rivetron/slate/src/theme"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 )
