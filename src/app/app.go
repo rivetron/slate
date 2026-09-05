@@ -143,10 +143,10 @@ func (a *App) renderHelp() string {
 	// * Navigation
 	help.WriteString(a.theme.SubtitleStyle().Render("Navigation:"))
 	help.WriteString("\n")
-	help.WriteString(fmt.Sprintf("  Next slide:     %s\n", strings.Join(a.config.Keybindings.Next, ", ")))
-	help.WriteString(fmt.Sprintf("  Previous slide: %s\n", strings.Join(a.config.Keybindings.Previous, ", ")))
-	help.WriteString(fmt.Sprintf("  First slide:    %s\n", strings.Join(a.config.Keybindings.First, ", ")))
-	help.WriteString(fmt.Sprintf("  Last slide:     %s\n", strings.Join(a.config.Keybindings.Last, ", ")))
+	fmt.Fprintf(&help, "  Next slide:     %s\n", strings.Join(a.config.Keybindings.Next, ", "))
+	fmt.Fprintf(&help, "  Previous slide: %s\n", strings.Join(a.config.Keybindings.Previous, ", "))
+	fmt.Fprintf(&help, "  First slide:    %s\n", strings.Join(a.config.Keybindings.First, ", "))
+	fmt.Fprintf(&help, "  Last slide:     %s\n", strings.Join(a.config.Keybindings.Last, ", "))
 	help.WriteString("  Go back:        b\n")
 	help.WriteString("\n")
 
@@ -154,7 +154,7 @@ func (a *App) renderHelp() string {
 	help.WriteString(a.theme.SubtitleStyle().Render("Other:"))
 	help.WriteString("\n")
 	help.WriteString("  Show help:      ?\n")
-	help.WriteString(fmt.Sprintf("  Quit:           %s\n", strings.Join(a.config.Keybindings.Quit, ", ")))
+	fmt.Fprintf(&help, "  Quit:           %s\n", strings.Join(a.config.Keybindings.Quit, ", "))
 	help.WriteString("\n\n")
 
 	help.WriteString(a.theme.HelpStyle().Render("Press ? or ESC to return to presentation"))
