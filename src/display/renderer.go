@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Kosha-Nirman/slate/src/models"
 	"github.com/charmbracelet/glamour"
 	"github.com/charmbracelet/lipgloss"
+	"github.com/rivetron/slate/src/models"
 )
 
 type Renderer struct {

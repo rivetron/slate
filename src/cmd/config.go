@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Kosha-Nirman/slate/src/config"
+	"github.com/rivetron/slate/src/config"
 	"github.com/spf13/cobra"
 )
 

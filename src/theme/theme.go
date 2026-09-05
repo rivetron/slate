@@ -5,8 +5,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/Kosha-Nirman/slate/src/models"
 	"github.com/charmbracelet/lipgloss"
+	"github.com/rivetron/slate/src/models"
 )
 
 // * Theme Modes

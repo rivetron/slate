@@ -1,4 +1,4 @@
-module github.com/Kosha-Nirman/slate
+module github.com/rivetron/slate
 
 go 1.27.1
 

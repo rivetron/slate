@@ -1,6 +1,6 @@
 package main
 
-import "github.com/Kosha-Nirman/slate/src/cmd"
+import "github.com/rivetron/slate/src/cmd"
 
 func main() {
 	cmd.Execute()

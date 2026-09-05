@@ -86,7 +86,7 @@ jobs:
           echo "" >> release-notes.md
           echo "\`\`\`bash" >> release-notes.md
           echo "# Download and extract (replace OS and ARCH with your system)" >> release-notes.md
-          echo "wget https://github.com/Kosha-Nirman/slate/releases/download/${{ github.ref_name }}/slate-OS-ARCH.zip" >> release-notes.md
+          echo "wget https://github.com/rivetron/slate/releases/download/${{ github.ref_name }}/slate-OS-ARCH.zip" >> release-notes.md
           echo "unzip slate-OS-ARCH.zip" >> release-notes.md
           echo "" >> release-notes.md
           echo "# Make executable and move to PATH" >> release-notes.md
@@ -116,7 +116,7 @@ jobs:
           echo "" >> release-notes.md
           echo "---" >> release-notes.md
           echo "" >> release-notes.md
-          echo "For more information, visit the [Slate documentation](https://github.com/Kosha-Nirman/slate)." >> release-notes.md
+          echo "For more information, visit the [Slate documentation](https://github.com/rivetron/slate)." >> release-notes.md
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2

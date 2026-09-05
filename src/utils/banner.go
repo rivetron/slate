@@ -22,7 +22,7 @@ func PrintBanner() {
 		fmt.Sprintf("        Slate · Terminal Presentation Tool v%s", version),
 	))
 	fmt.Println(color.YellowString(
-		"        https://github.com/Kosha-Nirman/slate",
+		"        https://github.com/rivetron/slate",
 	))
 	fmt.Println()
 }

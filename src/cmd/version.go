@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/Kosha-Nirman/slate/src/utils"
+	"github.com/rivetron/slate/src/utils"
 	"github.com/spf13/cobra"
 )
 
